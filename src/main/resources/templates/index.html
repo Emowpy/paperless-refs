@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>BrainKaster - Paperless Refs</title>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="semantic/out/semantic.min.css"/>
+    <script src="semantic/out/semantic.min.js"></script>
+    <script src="tablesort.min.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        $(window).load(function(){
+        $('.sortable.table').tablesort();
+        });//]]>
+
+    </script>
+</head>
+<body>
+
+<div id="react" class="ui centered grid"></div>
+
+<script src="built/bundle.js"></script>
+
+</body>
+</html>
